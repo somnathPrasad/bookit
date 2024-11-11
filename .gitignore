@@ -1,0 +1,48 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django and Python environment files
+*.env
+*.venv
+venv/
+ENV/
+env/
+env.bak/
+.env
+
+# Database files
+*.sqlite3
+db.sqlite3
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Logs
+*.log
+logs/
+
+# Media/uploads
+media/
+uploads/
+
+# Static files (can be generated in deployment)
+staticfiles/
+
+# Ignore local settings
+local_settings.py
+
+# Ignore compiled files
+*.so
+
+# MacOS system files
+.DS_Store
+
+# IDE configurations
+.vscode/
+.idea/
+
+# PyCharm files
+*.
